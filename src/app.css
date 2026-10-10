@@ -1,0 +1,191 @@
+{
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+background-color: #f5f6fa;
+color: #262626;
+font-family: Arial, sans-serif;
+line-height: 1.5;
+}
+
+.container {
+width: 90%;
+max-width: 850px;
+margin: 35px auto;
+}
+
+header {
+padding: 28px;
+background-color: #b51f2b;
+color: white;
+border-radius: 12px;
+margin-bottom: 24px;
+}
+
+.small-heading {
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+header h1 {
+margin: 8px 0;
+font-size: 32px;
+}
+
+header p {
+margin-bottom: 0;
+}
+
+.app-card {
+background-color: white;
+border: 1px solid #e2e2e2;
+border-radius: 12px;
+padding: 25px;
+margin-bottom: 24px;
+}
+
+h2 {
+margin-top: 0;
+color: #b51f2b;
+}
+
+h3 {
+margin-top: 28px;
+}
+
+.app-card > p {
+color: #666;
+}
+
+form {
+display: flex;
+flex-direction: column;
+gap: 9px;
+margin-top: 20px;
+}
+
+label {
+font-size: 14px;
+font-weight: bold;
+}
+
+input,
+textarea {
+width: 100%;
+padding: 11px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font: inherit;
+margin-bottom: 8px;
+}
+
+input,
+textarea {
+outline: 2px solid #e9a2a8;
+border-color: #b51f2b;
+}
+
+button {
+align-self: flex-start;
+border: none;
+border-radius: 6px;
+padding: 10px 15px;
+background-color: #b51f2b;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+
+button {
+background-color: #901722;
+}
+
+.empty-message {
+padding: 15px;
+border: 1px dashed #ccc;
+border-radius: 6px;
+color: #777;
+}
+
+.student-list {
+list-style: none;
+padding: 0;
+}
+
+.student-list li {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 15px;
+padding: 14px 0;
+border-bottom: 1px solid #eee;
+}
+
+.student-list li div {
+display: flex;
+flex-direction: column;
+}
+
+.student-list li span {
+color: #666;
+font-size: 14px;
+}
+
+.delete-button {
+background-color: #666;
+}
+
+.delete-button {
+background-color: #444;
+}
+
+.post {
+border: 1px solid #e4e4e4;
+border-radius: 8px;
+padding: 16px;
+margin-bottom: 12px;
+}
+
+.post h4 {
+margin: 0 0 8px;
+}
+
+.post p {
+white-space: pre-wrap;
+overflow-wrap: anywhere;
+}
+
+.post-buttons {
+display: flex;
+gap: 10px;
+}
+
+footer {
+padding: 10px;
+color: #777;
+text-align: center;
+font-size: 13px;
+}
+
+@media (max-width: 600px) {
+.container {
+width: 94%;
+margin: 15px auto;
+}
+
+header,
+.app-card {
+padding: 20px;
+}
+
+header h1 {
+font-size: 26px;
+}
+
+.student-list li {
+align-items: flex-start;
+}
+}
